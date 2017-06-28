@@ -41,6 +41,7 @@
 //  evenly divides all the elements in .
 // Thus, we print  as our answer.
 
+//Efficiency Rating: O(n^2)
 
 function getTotalX(a, b){
     var matches = [];
