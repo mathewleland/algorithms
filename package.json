@@ -1,0 +1,25 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "A repo for algorithm challenges",
+  "main": "test.js",
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathewleland/algorithms.git"
+  },
+  "author": "Mathew Leland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathewleland/algorithms/issues"
+  },
+  "homepage": "https://github.com/mathewleland/algorithms#readme"
+}
