@@ -4,8 +4,9 @@ describe('Two Sum tests', function(){
   const twoSum = require('../leetcode/twoSum').twoSum;
   const arr1 = [1,2,3,4,5];
 
-  it('should return an array', function() {
+  it('should return an array that has values', function() {
     expect(twoSum(arr1, 3)).to.be.an('array');
+    expect(twoSum(arr1, 3)).to.not.be.empty;
   });
   
   it('should return the right indices', function() {
